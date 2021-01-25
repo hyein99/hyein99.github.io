@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #bd5d38;
+  --primary: #12887A;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -60,7 +60,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nanum Gothic", sans-serif;
+  /*font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -360,7 +361,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Saira Extra Condensed", "Nanum Gothic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
   color: #343a40;
@@ -3997,11 +3998,12 @@ input[type=button].btn-block {
   justify-content: space-between;
 }
 .navbar-brand {
+  font-family: "Saira Extra Condensed", 'Do Hyeon', sans-serif;
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 32px;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -4010,6 +4012,8 @@ input[type=button].btn-block {
 }
 
 .navbar-nav {
+  font-family: "Saira Extra Condensed", 'Do Hyeon', sans-serif;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   padding-left: 0;
@@ -5587,7 +5591,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nanum Gothic", "Muli", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5689,7 +5693,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nanum Gothic", "Muli", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9673,7 +9677,7 @@ button.bg-dark:focus {
 }
 
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-family: "Nanum Gothic", "Muli", sans-serif;
 }
 
 .text-justify {
@@ -10024,16 +10028,57 @@ h1 {
   line-height: 1;
 }
 
-p.lead {
-  font-size: 1.15rem;
+p {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 18px;
+}
+
+p.a {
+  font-size: 15px;
   font-weight: 400;
 }
 
+p.b {
+  font-weight: 700;
+}
+
+p.c {
+  font-weight: 800;
+}
+
+li.details {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #12887A;
+}
+
+li.details:hover {
+  color: #12887A;
+  text-decoration: underline;
+}
+
+li.a {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+li.a > a {
+
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/*p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}*/
+
 .subheading {
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-transform: uppercase;
+  font-family: 'Do Hyeon', sans-serif;;
+/*  text-transform: uppercase;*/
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 18px;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -10042,7 +10087,7 @@ p.lead {
   text-transform: uppercase;
 }
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #ffffff;
 }
 
 @media (min-width: 992px) {
